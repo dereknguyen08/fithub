@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fithub/static/css/main.511f3027.css",
+    "main.js": "/fithub/static/js/main.04822939.js",
+    "static/js/787.9a12cc1a.chunk.js": "/fithub/static/js/787.9a12cc1a.chunk.js",
+    "index.html": "/fithub/index.html",
+    "main.511f3027.css.map": "/fithub/static/css/main.511f3027.css.map",
+    "main.04822939.js.map": "/fithub/static/js/main.04822939.js.map",
+    "787.9a12cc1a.chunk.js.map": "/fithub/static/js/787.9a12cc1a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.511f3027.css",
+    "static/js/main.04822939.js"
+  ]
+}
