@@ -1,0 +1,115 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Additional styles */
+.exercise-button,
+.return-button,
+.weekly-challenge-button,
+.participate-button,
+.feature-button {
+  font-size: 24px; /* Increased font size */
+  padding: 12px 24px; /* Increased padding */
+  margin: 10px; /* Added margin */
+  border-radius: 20px; /* Rounded corners */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.exercise-button:hover,
+.return-button:hover,
+.weekly-challenge-button:hover,
+.participate-button:hover,
+.feature-button:hover {
+  background-color: #2b80ff; /* Lighter color on hover */
+}
+
+/* DurationExercise and RepetitionExercise */
+.exercise-container {
+  margin-top: 30px; /* Add margin between exercises */
+  border: 1px solid #ccc; /* Add border to separate exercises */
+  padding: 30px; /* Add padding to exercises */
+  border-radius: 15px;
+}
+
+.exercise-name {
+  font-weight: bold; /* Bold exercise name */
+}
+
+/* Remove default button styles */
+button:focus {
+  outline: none;
+}
+
+/* WeeklyChallenge */
+.weekly-challenge-button {
+  background-color: #2b80ff;
+  color: white;
+}
+
+.weekly-challenge-button:hover {
+  background-color: #007bff;
+}
+
+.challenge-info {
+  margin-top: 20px;
+}
+
+.participate-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.participate-button:hover {
+  background-color: #218838;
+}
+
+.participate-info {
+  margin-top: 10px;
+}
+
+.feature-button {
+  background-color: #2b80ff;
+  color: white;
+}
+
+.feature-button:hover {
+  background-color: #007bff;
+}
